@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore.Web" Version="2.55.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.9" />
+      <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.1.1" />      
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\Example.Client.csproj" />
+    <ProjectReference Include="..\Shared\Example.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>
