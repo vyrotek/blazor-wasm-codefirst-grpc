@@ -4,7 +4,7 @@
 
 Using
  - **[ASP.NET Blazor WebAssembly](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)**
- - **[ASP.NET gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-7.0)** : 
+ - **[ASP.NET gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-7.0)**
  - **[protobuf-net.Grpc](https://protobuf-net.github.io/protobuf-net.Grpc)**
 
 Why?
